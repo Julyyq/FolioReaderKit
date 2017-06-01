@@ -210,11 +210,15 @@ body {
 }
 
 html.nightMode {
-    background-color: #131313 !important;
+    background-color: #1d1d1f !important;
+}
+
+nightMode body {
+    color: #8d8e92 !important;
 }
 
 .nightMode p, .nightMode div, .nightMode span:not(.epub-media-overlay-playing) {
-    color: #767676 !important;
+    color: #8d8e92 !important;
     background-color: transparent !important;
 }
 
