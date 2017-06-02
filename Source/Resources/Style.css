@@ -213,7 +213,7 @@ html.nightMode {
     background-color: #1d1d1f !important;
 }
 
-nightMode body {
+.nightMode body {
     color: #8d8e92 !important;
 }
 
