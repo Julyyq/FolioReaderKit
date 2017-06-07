@@ -33,7 +33,6 @@ Pod::Spec.new do |s|
   s.dependency 'MenuItemKit', '2.0'
   s.dependency 'ZFDragableModalTransition', '~> 0.6'
   s.dependency 'AEXML', '4.0'
-  s.dependency 'FontBlaster', '3.0.0'
   s.dependency 'JSQWebViewController', '~> 5.0'
   s.dependency 'RealmSwift', '~> 2.7'
 

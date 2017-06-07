@@ -75,6 +75,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9F8976D61EE7E42C00A52DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8976BE1EE7E42C00A52DB3 /* FontBlasterExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E7CBE8B1AF9BD7200009618;
+			remoteInfo = FontBlasterExample;
+		};
+		9F8976D81EE7E42C00A52DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8976BE1EE7E42C00A52DB3 /* FontBlasterExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 554B83801E6B50C400798F7A;
+			remoteInfo = FontBlaster;
+		};
 		B0D699171D035FA2003B4CCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B0D699021D035FA1003B4CCD /* Project object */;
@@ -139,6 +153,51 @@
 		1A9590141D397C1300D56699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FolioReaderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
+		9F8976981EE7E42B00A52DB3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9F8976991EE7E42B00A52DB3 /* .jazzy.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .jazzy.yml; sourceTree = "<group>"; };
+		9F89769A1EE7E42B00A52DB3 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		9F89769C1EE7E42B00A52DB3 /* badge.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = badge.svg; sourceTree = "<group>"; };
+		9F89769E1EE7E42B00A52DB3 /* FontBlaster.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = FontBlaster.html; sourceTree = "<group>"; };
+		9F89769F1EE7E42B00A52DB3 /* Classes.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		9F8976A11EE7E42B00A52DB3 /* highlight.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		9F8976A21EE7E42B00A52DB3 /* jazzy.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
+		9F8976A41EE7E42B00A52DB3 /* Siren.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Siren.docset; sourceTree = "<group>"; };
+		9F8976A51EE7E42B00A52DB3 /* Siren.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Siren.tgz; sourceTree = "<group>"; };
+		9F8976A71EE7E42B00A52DB3 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		9F8976A81EE7E42B00A52DB3 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		9F8976A91EE7E42B00A52DB3 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
+		9F8976AA1EE7E42B00A52DB3 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9F8976AC1EE7E42C00A52DB3 /* jazzy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		9F8976AD1EE7E42C00A52DB3 /* jquery.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		9F8976AE1EE7E42C00A52DB3 /* search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		9F8976AF1EE7E42C00A52DB3 /* undocumented.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = undocumented.json; sourceTree = "<group>"; };
+		9F8976B01EE7E42C00A52DB3 /* FontBlaster.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FontBlaster.podspec; sourceTree = "<group>"; };
+		9F8976B31EE7E42C00A52DB3 /* FontBlaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontBlaster.h; sourceTree = "<group>"; };
+		9F8976B41EE7E42C00A52DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8976B61EE7E42C00A52DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F8976B81EE7E42C00A52DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9F8976BA1EE7E42C00A52DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F8976BB1EE7E42C00A52DB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F8976BC1EE7E42C00A52DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8976BD1EE7E42C00A52DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F8976BE1EE7E42C00A52DB3 /* FontBlasterExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FontBlasterExample.xcodeproj; sourceTree = "<group>"; };
+		9F8976C21EE7E42C00A52DB3 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9F8976C31EE7E42C00A52DB3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		9F8976C41EE7E42C00A52DB3 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9F8976C51EE7E42C00A52DB3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9F8976C61EE7E42C00A52DB3 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9F8976C71EE7E42C00A52DB3 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		9F8976C81EE7E42C00A52DB3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		9F8976C91EE7E42C00A52DB3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		9F8976CA1EE7E42C00A52DB3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		9F8976CB1EE7E42C00A52DB3 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		9F8976CC1EE7E42C00A52DB3 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		9F8976CD1EE7E42C00A52DB3 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		9F8976CE1EE7E42C00A52DB3 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		9F8976CF1EE7E42C00A52DB3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9F8976D01EE7E42C00A52DB3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		9F8976D11EE7E42C00A52DB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9F8976D31EE7E42C00A52DB3 /* FontBlaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBlaster.swift; sourceTree = "<group>"; };
 		B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FolioReaderKit.h; sourceTree = "<group>"; };
 		B0D699101D035FA2003B4CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -313,6 +372,155 @@
 			path = Raleway;
 			sourceTree = "<group>";
 		};
+		9F8976971EE7E42B00A52DB3 /* FontBlaster-swift4 */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976981EE7E42B00A52DB3 /* .gitignore */,
+				9F8976991EE7E42B00A52DB3 /* .jazzy.yml */,
+				9F89769A1EE7E42B00A52DB3 /* .swift-version */,
+				9F89769B1EE7E42B00A52DB3 /* docs */,
+				9F8976B01EE7E42C00A52DB3 /* FontBlaster.podspec */,
+				9F8976B11EE7E42C00A52DB3 /* FontBlasterExample */,
+				9F8976CD1EE7E42C00A52DB3 /* Gemfile */,
+				9F8976CE1EE7E42C00A52DB3 /* Gemfile.lock */,
+				9F8976CF1EE7E42C00A52DB3 /* LICENSE */,
+				9F8976D01EE7E42C00A52DB3 /* Package.swift */,
+				9F8976D11EE7E42C00A52DB3 /* README.md */,
+				9F8976D21EE7E42C00A52DB3 /* Sources */,
+			);
+			path = "FontBlaster-swift4";
+			sourceTree = "<group>";
+		};
+		9F89769B1EE7E42B00A52DB3 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				9F89769C1EE7E42B00A52DB3 /* badge.svg */,
+				9F89769D1EE7E42B00A52DB3 /* Classes */,
+				9F89769F1EE7E42B00A52DB3 /* Classes.html */,
+				9F8976A01EE7E42B00A52DB3 /* css */,
+				9F8976A31EE7E42B00A52DB3 /* docsets */,
+				9F8976A61EE7E42B00A52DB3 /* img */,
+				9F8976AA1EE7E42B00A52DB3 /* index.html */,
+				9F8976AB1EE7E42C00A52DB3 /* js */,
+				9F8976AE1EE7E42C00A52DB3 /* search.json */,
+				9F8976AF1EE7E42C00A52DB3 /* undocumented.json */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		9F89769D1EE7E42B00A52DB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F89769E1EE7E42B00A52DB3 /* FontBlaster.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9F8976A01EE7E42B00A52DB3 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976A11EE7E42B00A52DB3 /* highlight.css */,
+				9F8976A21EE7E42B00A52DB3 /* jazzy.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		9F8976A31EE7E42B00A52DB3 /* docsets */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976A41EE7E42B00A52DB3 /* Siren.docset */,
+				9F8976A51EE7E42B00A52DB3 /* Siren.tgz */,
+			);
+			path = docsets;
+			sourceTree = "<group>";
+		};
+		9F8976A61EE7E42B00A52DB3 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976A71EE7E42B00A52DB3 /* carat.png */,
+				9F8976A81EE7E42B00A52DB3 /* dash.png */,
+				9F8976A91EE7E42B00A52DB3 /* gh.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		9F8976AB1EE7E42C00A52DB3 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976AC1EE7E42C00A52DB3 /* jazzy.js */,
+				9F8976AD1EE7E42C00A52DB3 /* jquery.min.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		9F8976B11EE7E42C00A52DB3 /* FontBlasterExample */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976B21EE7E42C00A52DB3 /* FontBlaster */,
+				9F8976B51EE7E42C00A52DB3 /* FontBlasterExample */,
+				9F8976BE1EE7E42C00A52DB3 /* FontBlasterExample.xcodeproj */,
+				9F8976C11EE7E42C00A52DB3 /* OpenSans */,
+			);
+			path = FontBlasterExample;
+			sourceTree = "<group>";
+		};
+		9F8976B21EE7E42C00A52DB3 /* FontBlaster */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976B31EE7E42C00A52DB3 /* FontBlaster.h */,
+				9F8976B41EE7E42C00A52DB3 /* Info.plist */,
+			);
+			path = FontBlaster;
+			sourceTree = "<group>";
+		};
+		9F8976B51EE7E42C00A52DB3 /* FontBlasterExample */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976B61EE7E42C00A52DB3 /* AppDelegate.swift */,
+				9F8976B71EE7E42C00A52DB3 /* LaunchScreen.xib */,
+				9F8976B91EE7E42C00A52DB3 /* Main.storyboard */,
+				9F8976BB1EE7E42C00A52DB3 /* Images.xcassets */,
+				9F8976BC1EE7E42C00A52DB3 /* Info.plist */,
+				9F8976BD1EE7E42C00A52DB3 /* ViewController.swift */,
+			);
+			path = FontBlasterExample;
+			sourceTree = "<group>";
+		};
+		9F8976BF1EE7E42C00A52DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976D71EE7E42C00A52DB3 /* FontBlasterExample.app */,
+				9F8976D91EE7E42C00A52DB3 /* FontBlaster.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8976C11EE7E42C00A52DB3 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976C21EE7E42C00A52DB3 /* LICENSE.txt */,
+				9F8976C31EE7E42C00A52DB3 /* OpenSans-Bold.ttf */,
+				9F8976C41EE7E42C00A52DB3 /* OpenSans-BoldItalic.ttf */,
+				9F8976C51EE7E42C00A52DB3 /* OpenSans-ExtraBold.ttf */,
+				9F8976C61EE7E42C00A52DB3 /* OpenSans-ExtraBoldItalic.ttf */,
+				9F8976C71EE7E42C00A52DB3 /* OpenSans-Italic.ttf */,
+				9F8976C81EE7E42C00A52DB3 /* OpenSans-Light.ttf */,
+				9F8976C91EE7E42C00A52DB3 /* OpenSans-LightItalic.ttf */,
+				9F8976CA1EE7E42C00A52DB3 /* OpenSans-Regular.ttf */,
+				9F8976CB1EE7E42C00A52DB3 /* OpenSans-Semibold.ttf */,
+				9F8976CC1EE7E42C00A52DB3 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		9F8976D21EE7E42C00A52DB3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9F8976D31EE7E42C00A52DB3 /* FontBlaster.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		B0D699011D035FA1003B4CCD = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +578,7 @@
 		B0D69C421D0387F7003B4CCD /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				9F8976971EE7E42B00A52DB3 /* FontBlaster-swift4 */,
 				B0D69C431D0387F7003B4CCD /* HAControls */,
 				B0D69C451D0387F7003B4CCD /* SMSegmentView */,
 			);
@@ -473,10 +682,17 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B0D699011D035FA1003B4CCD;
 			productRefGroup = B0D6990C1D035FA2003B4CCD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9F8976BF1EE7E42C00A52DB3 /* Products */;
+					ProjectRef = 9F8976BE1EE7E42C00A52DB3 /* FontBlasterExample.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B0D6990A1D035FA2003B4CCD /* FolioReaderKit */,
@@ -484,6 +700,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9F8976D71EE7E42C00A52DB3 /* FontBlasterExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FontBlasterExample.app;
+			remoteRef = 9F8976D61EE7E42C00A52DB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F8976D91EE7E42C00A52DB3 /* FontBlaster.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FontBlaster.framework;
+			remoteRef = 9F8976D81EE7E42C00A52DB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B0D699091D035FA2003B4CCD /* Resources */ = {
@@ -598,6 +831,25 @@
 			targetProxy = B0D699171D035FA2003B4CCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8976B71EE7E42C00A52DB3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8976B81EE7E42C00A52DB3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9F8976B91EE7E42C00A52DB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8976BA1EE7E42C00A52DB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B0D6991D1D035FA2003B4CCD /* Debug */ = {
