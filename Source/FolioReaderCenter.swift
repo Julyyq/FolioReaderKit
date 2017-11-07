@@ -123,6 +123,10 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
     override open func viewDidLoad() {
         super.viewDidLoad()
 
+        if #available(iOS 11.0, *) {
+            self.additionalSafeAreaInsets = UIEdgeInsets.init(top: -64, left: 0, bottom: 0, right: 0)
+        }
+        
         screenBounds = self.view.frame
         setPageSize(UIApplication.shared.statusBarOrientation)
 
