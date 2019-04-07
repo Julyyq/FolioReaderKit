@@ -27,7 +27,7 @@ public enum FolioReaderScrollDirection: Int {
     /// The current scroll direction
     ///
     /// - Returns: Returns `UICollectionViewScrollDirection`
-    func collectionViewScrollDirection() -> UICollectionViewScrollDirection {
+    func collectionViewScrollDirection() -> UICollectionView.ScrollDirection {
         switch self {
         case .vertical, .defaultVertical:
             return .vertical
@@ -140,36 +140,42 @@ open class FolioReaderConfig: NSObject {
 
     /// Enable TTS (Text To Speech)
     open var enableTTS = true
+    
+    /// Display book title in navbar
+    open var displayTitle = false
 
-    // hide the page indicator
+    /// Hide the page indicator
     open var hidePageIndicator = false
 
+    /// Go to saved position when open a book
+    open var loadSavedPositionForCurrentBook = true
+    
     // MARK: Quote image share
 
     /// Custom Quote logo
-    open var quoteCustomLogoImage       = UIImage(readerImageNamed: "icon-logo")
+    open var quoteCustomLogoImage = UIImage(readerImageNamed: "icon-logo")
 
     /// Add custom backgrounds and font colors to Quote Images
-    open var quoteCustomBackgrounds     = [QuoteImage]()
+    open var quoteCustomBackgrounds = [QuoteImage]()
 
     /// Enable or disable default Quote Image backgrounds
-    open var quotePreserveDefaultBackgrounds    = true
+    open var quotePreserveDefaultBackgrounds = true
 
     // MARK: Realm
 
     /// Realm configuration for storing highlights
-    open var realmConfiguration         = Realm.Configuration()
+    open var realmConfiguration = Realm.Configuration(schemaVersion: 2)
 
     // MARK: Localized strings
 
     /// Localizes Highlight title
-    open var localizedHighlightsTitle   = NSLocalizedString("Highlights", comment: "")
+    open var localizedHighlightsTitle = NSLocalizedString("Highlights", comment: "")
 
     /// Localizes Content title
-    open var localizedContentsTitle     = NSLocalizedString("Contents", comment: "")
+    open var localizedContentsTitle = NSLocalizedString("Contents", comment: "")
 
     /// Use the readers `UIMenuController` which enables the highlighting etc. The default is `true`. If set to false it's possible to modify the shared `UIMenuController` for yourself. Note: This doesn't disable the text selection in the web view.
-    open var useReaderMenuController    = true
+    open var useReaderMenuController = true
 
     /// Used to distinguish between multiple or different reader instances. The content of the user defaults (font settings etc.) depends on this identifier. The default is `nil`.
     open var identifier: String?
@@ -201,6 +207,8 @@ open class FolioReaderConfig: NSObject {
     open var localizedTakePhoto = NSLocalizedString("Take Photo", comment: "")
     open var localizedShareImageQuote = NSLocalizedString("Share image quote", comment: "")
     open var localizedShareTextQuote = NSLocalizedString("Share text quote", comment: "")
+    open var localizedSave = NSLocalizedString("Save", comment: "")
+    open var localizedHighlightNote = NSLocalizedString("Note", comment: "")
 
     public convenience init(withIdentifier identifier: String) {
         self.init()

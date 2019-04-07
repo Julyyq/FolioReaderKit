@@ -59,7 +59,7 @@ class FolioReaderPageIndicator: UIView {
         let fullW = pagesLabel.frame.width + minutesLabel.frame.width
         minutesLabel.frame.origin = CGPoint(x: frame.width/2-fullW/2, y: 2)
         pagesLabel.frame.origin = CGPoint(x: minutesLabel.frame.origin.x+minutesLabel.frame.width, y: 2)
-
+        
         if updateShadow {
             layer.shadowPath = UIBezierPath(rect: bounds).cgPath
             self.reloadColors()
@@ -75,11 +75,11 @@ class FolioReaderPageIndicator: UIView {
         let currentColor = UIColor(cgColor: layer.shadowColor!)
         animation.fromValue = currentColor.cgColor
         animation.toValue = color.cgColor
-        animation.fillMode = kCAFillModeForwards
+        animation.fillMode = CAMediaTimingFillMode.forwards
         animation.isRemovedOnCompletion = false
         animation.duration = 0.6
         animation.delegate = self
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         layer.add(animation, forKey: "shadowColor")
 
         minutesLabel.textColor = self.folioReader.isNight(UIColor(white: 1, alpha: 0.3), UIColor(white: 0, alpha: 0.6))
@@ -95,7 +95,6 @@ class FolioReaderPageIndicator: UIView {
             pagesLabel.text = " \(pagesRemaining) " + self.readerConfig.localizedReaderManyPagesLeft
         }
 
-
         let minutesRemaining = Int(ceil(CGFloat((pagesRemaining * totalMinutes)/totalPages)))
         if minutesRemaining > 1 {
             minutesLabel.text = "\(minutesRemaining) " + self.readerConfig.localizedReaderManyMinutes+" ·"
@@ -104,7 +103,7 @@ class FolioReaderPageIndicator: UIView {
         } else {
             minutesLabel.text = self.readerConfig.localizedReaderLessThanOneMinute+" ·"
         }
-
+        
         reloadView(updateShadow: false)
     }
 }

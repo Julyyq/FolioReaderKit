@@ -57,6 +57,7 @@ body {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    word-break: normal;
 }
 tbody, tfoot, thead {
     vertical-align: middle !important;
@@ -209,7 +210,7 @@ body {
     background-color: transparent !important;
 }
 
-html.nightMode {
+html.nightMode, html.nightMode body {
     background-color: #1d1d1f !important;
 }
 
